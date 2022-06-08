@@ -11,3 +11,6 @@ https://fedingo.com/how-to-install-openssl-in-ubuntu/ con la version 1.1.1o
 Agregar https://raw.githubusercontent.com/rubygems/rubygems/master/lib/rubygems/ssl_certs/rubygems.org/GlobalSignRootCA_R3.pem
 
 a gem which rubygems sin el .rb
+
+
+sudo wget -O /usr/local/ssl/cert.pem "https://curl.haxx.se/ca/cacert.pem" para solucionar problemas de certificado de open ssl
